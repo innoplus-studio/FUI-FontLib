@@ -1,7 +1,7 @@
 {
   "name": "@fantaskticedtechlimited/fui-fontlib",
-  "version": "0.0.1-beta",
-  "description": "Customized fonts globally used in projects of Fantasktic",
+  "version": "0.0.2",
+  "description": "Fantasktic UI Font library",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -25,6 +25,9 @@
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "/lib"
