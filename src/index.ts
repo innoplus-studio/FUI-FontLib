@@ -1,3 +1,3 @@
-import { FFontTypes } from "./font.types";
+import { FFontTypes } from "./types";
 
 export { FFontTypes}
