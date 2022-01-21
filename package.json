@@ -1,6 +1,6 @@
 {
   "name": "@fantaskticedtechlimited/fui-fontlib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Fantasktic UI Font library",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
