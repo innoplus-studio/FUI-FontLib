@@ -3,6 +3,12 @@ import { handleFFontTypes } from "./func";
 
 const FontFamilyList = ["Poppins", "Mulish", "Montserrat", "Nunito"];
 
+export enum FFontFamily {
+	Poppins = "Poppins",
+	Mulish = "Mulish",
+	Montserrat = "Montserrat",
+	Nunito = "Nunito",
+}
 WebFont.load({
 	google: {
 		families: FontFamilyList,
@@ -12,7 +18,7 @@ WebFont.load({
 export interface FFontProps {
 	fontWeight?: string | number;
 	fontSize?: string | number;
-	fontFamily?: string;
+	fontFamily?: FFontFamily | string;
 	lineHeight?: string | number;
 }
 
@@ -20,37 +26,37 @@ const defaultFFontTypes = {
 	SMALL_TEXT: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "0.625rem",
-		fontFamily: "Mulish",
+		fontFamily: FFontFamily.Poppins,
 		lineHeight: "1rem",
 	},
 	TEXT: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "0.75rem",
-		fontFamily: "Mulish",
+		fontFamily: FFontFamily.Mulish,
 		lineHeight: "1.125rem",
 	},
 	LARGE_TEXT: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "0.875rem",
-		fontFamily: "Mulish",
+		fontFamily: FFontFamily.Mulish,
 		lineHeight: "1.25rem",
 	},
 	SMALL_TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "1rem",
-		fontFamily: "Poppins",
+		fontFamily: FFontFamily.Poppins,
 		lineHeight: "1.5rem",
 	},
 	TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "1.5rem",
-		fontFamily: "Poppins",
+		fontFamily: FFontFamily.Poppins,
 		lineHeight: "2rem",
 	},
 	LARGE_TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "2rem",
-		fontFamily: "Poppins",
+		fontFamily: FFontFamily.Poppins,
 		lineHeight: "2.5rem",
 	},
 };
