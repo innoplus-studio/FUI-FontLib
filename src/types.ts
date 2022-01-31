@@ -27,37 +27,37 @@ const defaultFFontTypes = {
 		fontWeight: "600",
 		fontSize: "0.625rem",
 		fontFamily: FFontFamily.Poppins,
-		lineHeight: "1rem",
+		lineHeight: "16px",
 	},
 	TEXT: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "0.75rem",
 		fontFamily: FFontFamily.Mulish,
-		lineHeight: "1.125rem",
+		lineHeight: "18px",
 	},
 	LARGE_TEXT: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "0.875rem",
 		fontFamily: FFontFamily.Mulish,
-		lineHeight: "1.25rem",
+		lineHeight: "20px",
 	},
 	SMALL_TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "1rem",
 		fontFamily: FFontFamily.Poppins,
-		lineHeight: "1.5rem",
+		lineHeight: "24px",
 	},
 	TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "1.5rem",
 		fontFamily: FFontFamily.Poppins,
-		lineHeight: "2rem",
+		lineHeight: "32px",
 	},
 	LARGE_TITLE: <FFontProps>{
 		fontWeight: "600",
 		fontSize: "2rem",
 		fontFamily: FFontFamily.Poppins,
-		lineHeight: "2.5rem",
+		lineHeight: "40px",
 	},
 };
 

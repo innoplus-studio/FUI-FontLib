@@ -24,7 +24,7 @@ export const handleFFontTypes = (
 		`${
 			props?.lineHeight
 				? typeof props?.lineHeight === "number"
-					? props?.lineHeight / 16 + "rem"
+					? props?.lineHeight + "px"
 					: props?.lineHeight
 				: defaultProps?.lineHeight
 		}` +
