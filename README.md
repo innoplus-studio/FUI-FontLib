@@ -2,4 +2,4 @@
 
 To install:
 
-`yarn add @fantaskticedtechlimited/fui-fontlib`
+`yarn add @innoplus-studio/fui-fontlib`
